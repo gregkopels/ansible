@@ -1,6 +1,6 @@
 ---
 - name: Running show commands on Cisco IOS
-  hosts: routers
+  hosts: ios
   gather_facts: false
   connection: network_cli
 
