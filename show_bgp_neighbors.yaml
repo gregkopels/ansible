@@ -6,7 +6,7 @@
 
   tasks:
     - name: BGP Neighbors
-      raw: "show ip bgp neighbors"
+      raw: "sh ip bgp vpnv4 vrf 1 neighbors"
       register: output #register the output in a variable named output
 
     - name: Printing Output
