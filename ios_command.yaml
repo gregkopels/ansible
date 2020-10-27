@@ -10,6 +10,7 @@
         commands: #commands to run
           - show version
           - show ip interface brief
+          - show run interface eth1/1
 
       register: output    #register the output in a variable named output
 
