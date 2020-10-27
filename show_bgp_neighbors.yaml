@@ -1,6 +1,6 @@
 ---
 - name: Show BGP Neighbors
-  hosts: routers
+  hosts: sdwan
   gather_facts: false
 
 
